@@ -1,0 +1,136 @@
+
+/* contact-area-css-start-here */
+section.contact-area {
+  padding-bottom: 50px;
+}
+.contact-area .service-intro{
+  height: 582px;
+  margin-bottom: 120px;
+}
+.contact-area .service-intro-text-box{
+  bottom: -120px;
+}
+.contact-area .service-intro-text-box-content{
+  max-width: 375px;
+}
+
+.single-form-group input, .single-form-group textarea {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #00004C;
+    font-size: 18px;
+    color: #00004C;
+    font-weight: 400;
+    padding: 8px 0 8px 0;
+}
+.single-form-group input[type="submit"]{
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  border: 1px solid #00004C;
+  background-color: #fff;
+  max-width: 185px;
+  padding: 12px;
+  transition: .3s all ease-in-out;
+  -webkit-transition: .3s all ease-in-out;
+  -moz-transition: .3s all ease-in-out;
+  -ms-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+}
+.single-form-group input[type="submit"]:hover{
+  background-color: #F2CD00;
+  border-color: #F2CD00;
+}
+.single-form-group {
+    margin-bottom: 40px;
+}
+.single-form-group-check{
+  margin-bottom: 10px;
+}
+.single-form-group-message{
+  margin-bottom: 25px;
+}
+.single-form-group input::placeholder, .single-form-group textarea::placeholder{
+  font-size: 18px;
+    color: #00004C;
+    font-weight: 400;
+}
+.single-form-group textarea{
+  height: 170PX;
+}
+.contact-form{
+  padding: 120px 0 0 0;
+}
+.single-form-group-btn{
+  text-align: right;
+}
+
+/* contact-area-css-start-here */
+/* The terms-check */
+.terms-check {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #707070;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.terms-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 13px;
+  width: 13px;
+  background-color: #fff;
+  border: 1px solid #707070;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.terms-check input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.terms-check .checkmark:after {
+  left: 3px;
+  top: 0px;
+  width: 5px;
+  height: 8px;
+  border: solid #707070;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+span.feedback {
+  display: block;
+  margin-top: 30px;
+  color: lightseagreen;
+}
+
